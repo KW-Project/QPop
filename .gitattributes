@@ -1,0 +1,4 @@
+# Batch files can misbehave with LF line endings (labels/goto), so keep them CRLF.
+*.bat eol=crlf
+*.iss eol=crlf
+* text=auto

@@ -1,0 +1,12 @@
+# Personal data - contains your private ntfy topic. Never commit or ship these.
+config.json
+*.log
+*.pid
+*.tmp
+
+# Generated
+icon.ico
+build/
+dist/
+*.spec
+__pycache__/
